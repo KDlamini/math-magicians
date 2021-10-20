@@ -35,7 +35,7 @@ body {
 
 #display {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
+  background: #858693;
   color: #fff;
   font-size: 2.5rem;
   text-align: right;
@@ -51,12 +51,13 @@ button {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid #fff;
-  background: rgba(223, 231, 238, 0.75);
+  background: #e0e0e0;
   outline: none;
 }
 
 button:hover {
   background: rgba(144, 166, 187, 0.75);
+  background: rgba(223, 231, 238, 0.75);
 }
 
 #zero {
@@ -68,7 +69,7 @@ button:hover {
 #subtract,
 #add,
 #equals {
-  background: #ffae00fa;
+  background: #f5913e;
 }
 
 #divide:hover,
@@ -76,5 +77,5 @@ button:hover {
 #subtract:hover,
 #add:hover,
 #equals:hover {
-  background: #aa7a12;
+  background: #ffae6c;
 }
