@@ -93,7 +93,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/newhorizon-tech/tv-webapp/issues).
+Feel free to check the [issues page](https://github.com/KDlamini/math-magicians/issues).
 
 
 ## Show your support
