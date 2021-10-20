@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 
 class Button extends Component {
   render() {
+    const { id, name } = this.props;
+
     return (
-      <button></button>
+      <button id={id} type="button">{name}</button>
     );
   }
 }

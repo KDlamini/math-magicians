@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 
 class Screen extends Component {
   render() {
+    const { id, currentValue } = this.props;
+
     return (
-      <div></div>
+      <div id={id}>{currentValue}</div>
     );
   }
 }
