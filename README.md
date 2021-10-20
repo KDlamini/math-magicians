@@ -28,24 +28,24 @@ git@github.com:KDlamini/math-magicians.git
 
 To get started, In the project directory, you can run:
 ```
-yarn install
+yarn install OR npm install
 ```
 run react app and open in browser:
 ```
-yarn start
+yarn start OR npm start
 ```
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you encounter an issue related to eslint version conflict run:
+If you encounter an issue related to eslint or webpack version conflict run:
 ```
-npm audit fix --force
+yarn audit fix --force OR npm audit fix --force
 ```
 
 ## `Tests`
 To check development tests run:
 ```
-yarn test
+yarn test OR npm run test
 ```
 Launches the test runner in the interactive watch mode.
 
@@ -63,7 +63,7 @@ npx eslint .
 
 ## `Deployement`
 ```
-yarn build
+yarn build OR npm build
 ```
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
