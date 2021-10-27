@@ -1,7 +1,5 @@
 .calculator-page {
   display: flex;
-  height: auto;
-  min-height: 81%;
 }
 
 .calculator-content {

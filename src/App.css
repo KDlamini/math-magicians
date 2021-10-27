@@ -20,3 +20,9 @@ body {
 .App {
   height: 100vh;
 }
+
+.homepage,
+.calculator-page {
+  height: auto;
+  min-height: 81%;
+}

@@ -6,7 +6,7 @@ function Mathematics() {
   return (
     <section className="calculator-page">
       <div className="calculator-content">
-        <p>Let&apos;s do some math!</p>
+        <h2>Let&apos;s do some math!</h2>
       </div>
       <Calculator />
     </section>
