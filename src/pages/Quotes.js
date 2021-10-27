@@ -18,7 +18,7 @@ function Quotes() {
   return (
     <section className="quote-page">
       <p>{quote}</p>
-      <h3>{author}</h3>
+      <h3>{`- ${author}`}</h3>
     </section>
   );
 }

@@ -22,7 +22,8 @@ body {
 }
 
 .homepage,
-.calculator-page {
+.calculator-page,
+.quote-page {
   height: auto;
   min-height: 81%;
 }
