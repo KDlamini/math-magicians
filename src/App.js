@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Mathematics from './pages/Mathematics';
 import Quotes from './pages/Quotes';
+import Footer from './components/Footer';
 import './styles/Calculator.css';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </main>
     );
   }
