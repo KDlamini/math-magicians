@@ -3,7 +3,7 @@ import '../styles/Quotes.css';
 
 function Quotes() {
   return (
-    <div>Quotes Page</div>
+    <section className="quote-page">Quotes Page</section>
   );
 }
 
