@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
-import './App.css';
+import './styles/Calculator.css';
 
 class App extends Component {
   render() {

@@ -1,20 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
     <nav>
       <Header />
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
+      <ul className="nav-list">
+        <li className="nav-item">
+          <Link to="/" className="link">Home</Link>
         </li>
-        <li>
-          <Link to="/calculator">Calculator</Link>
+        <li className="nav-item">
+          <Link to="/calculator" className="link">Calculator</Link>
         </li>
-        <li>
-          <Link to="/quote">Quote</Link>
+        <li className="nav-item">
+          <Link to="/quote" className="link">Quote</Link>
         </li>
       </ul>
     </nav>
