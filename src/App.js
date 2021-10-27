@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Calculator from './pages/Calculator';
+import Calculator from './components/Calculator';
 import Quotes from './pages/Quotes';
 import './styles/Calculator.css';
 
