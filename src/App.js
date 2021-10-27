@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Calculator from './components/Calculator';
+import Mathematics from './pages/Mathematics';
 import Quotes from './pages/Quotes';
 import './styles/Calculator.css';
 
@@ -17,7 +17,7 @@ class App extends Component {
             <Quotes />
           </Route>
           <Route path="/calculator">
-            <Calculator />
+            <Mathematics />
           </Route>
           <Route path="/">
             <Home />
