@@ -1,6 +1,8 @@
 # Math Magicians
 Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to  make simple calculations and read a random math-related quote.
 
+![Screenshot](./src/assets/math-magicians.png)
+
 This project is part of the Microverse curriculum module 3. The main objective is to understand how create a React app, use class based-components, hooks, state, run tests, and creating professional documentation for development.
 
 
