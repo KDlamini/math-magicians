@@ -8,7 +8,7 @@ describe('testing operations', () => {
     const result = operate(operandOne, operandTwo, '+');
     expect(result).toBe('14');
   });
-  test('test substraction', () => {
+  test('test subtraction', () => {
     const result = operate(operandOne, operandTwo, '-');
     expect(result).toBe('-4');
   });
