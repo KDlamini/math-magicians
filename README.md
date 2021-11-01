@@ -8,6 +8,8 @@ This project is part of the Microverse curriculum module 3. The main objective i
 ## Live Preview
 Heroku: [https://math-magicians-05671.herokuapp.com/](https://math-magicians-05671.herokuapp.com/)
 
+Netlify: [https://math-magicians-3551.netlify.app/](https://math-magicians-3551.netlify.app/)
+
 ## Built With
 
 - React
